@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextRut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rut"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:autofillHints="yes"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:autofillHints="yes"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:autofillHints="yes"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listar"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminar"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

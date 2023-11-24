@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">complementariaSQLite</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="guardar">Guardar</string>
+    <string name="listar">Listar</string>
+    <string name="correo">Correo</string>
+    <string name="nombre">Nombre</string>
+    <string name="rut">Rut</string>
+</resources>
